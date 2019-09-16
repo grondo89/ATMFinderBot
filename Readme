@@ -1,0 +1,5 @@
+
+1) Ejecutar el comando npm install posicionado en el directorio raiz de la aplicacion.
+2) Ejecutar el comando npm start para correr la aplicacion.
+3) La funcionalidad de "compartir ubicacion" no se encuentra disponible en Telegram Desktop por lo que para testear el bot sera necesario hacerlo desde un telefono. Usando la app "Telegram", iniciar una conversacion con el bot "closestATM". 
+4) Apretar el boton "start" o en su defecto correr el comando "/start".

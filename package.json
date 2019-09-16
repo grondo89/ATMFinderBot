@@ -1,0 +1,22 @@
+{
+  "name": "atm-bot",
+  "version": "1.0.0",
+  "description": "Closest ATM finder",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -r esm setup.js"
+  },
+  "author": "Gabriel Grondona",
+  "license": "ISC",
+  "dependencies": {
+    "convert-array-to-csv": "^1.0.9",
+    "csv-parser": "^2.3.0",
+    "esm": "^3.2.25",
+    "node-cron": "^2.0.3",
+    "node-telegram-bot-api": "^0.30.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0"
+  }
+}
