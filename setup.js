@@ -7,7 +7,7 @@ const bancosLink = [];
 const bancosBanelco = [];
 let bankList = [];
 
-cron.schedule("00 35 19 * * 1-5", () => {
+cron.schedule("00 00 08 * * 1-5", () => {
   console.log("Refreshing counter to renew daily extraction limit");
   resetCounter();
   console.log("Refresh completed");
